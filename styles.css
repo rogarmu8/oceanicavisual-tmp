@@ -24,6 +24,7 @@ body, html {
     align-items: center;
     transition: all 0.3s ease;
     position: relative;
+    text-decoration: none; /* Remove underline from links */
 }
 
 .section:hover {
