@@ -56,7 +56,7 @@ body, html {
     position: absolute;
     bottom: 20px;
     display: flex;
-    gap: 30px; /* Increased gap between icons */
+    gap: 35px; /* Increased from 30px */
 }
 
 .social-left {
@@ -77,8 +77,8 @@ body, html {
 .social-link::before {
     content: '';
     position: absolute;
-    width: 36px;
-    height: 36px;
+    width: 42px;  /* Increased from 36px */
+    height: 42px; /* Increased from 36px */
     background-color: black;
     border-radius: 50%;
     opacity: 0;
